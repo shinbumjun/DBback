@@ -9,7 +9,7 @@ public class HelloController {
 
     @GetMapping("hello")
     public String hello(Model model){
-        System.out.println("22222222222222222222222222222");
+        System.out.println("22222222222222222");
         model.addAttribute("data", "hello!!!");
         return "hello"; // 화면 이름
     }
